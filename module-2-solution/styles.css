@@ -1,0 +1,79 @@
+@media (min-width: 992px) 
+{
+   * {
+   	box-sizing: border-box;
+   	} 
+	.one, .two, .three {
+	    width: 31%;
+	    float: left;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) 
+{
+   * {
+   	box-sizing: border-box;
+   	} 
+	.one, .two {
+	  width: 47%;
+	  float: left;
+	}
+	 
+	.three  {
+	  width: 96.5%;
+	  float: left;
+	}
+}	
+@media (max-width: 767px) 
+{
+   * {
+   	box-sizing: border-box;
+   	} 
+	.one, .two, .three {
+	    width: 99%;
+	    float: left;
+	}
+}   
+* {
+   	font-family: Comic;
+   	} 
+div{
+   position: relative;
+   float: left;
+   clear: right;
+   margin:1% 12px 10px 1%;
+}
+h4 {
+   position: relative;
+   float: right;
+   margin: 0px;
+   clear: left;
+   color: green;
+   width:40%;
+   text-align: center;
+   border: solid black 1px;
+   font-size: 1.25em;
+}	
+.one, .two, .three {
+	    border: solid black 1px;
+	    background-color: #F4A460;
+	}
+
+p {
+	margin: 30px 5px 10px 5px;
+	font-size: 1em;
+}
+h1{
+   font-size: 1.75em;
+   text-align: center;
+   margin-bottom: 50px;
+}
+#prvi{
+  background-color: #ADFF2F;
+}
+#drugi{
+  background-color: #00FF7F;
+  color: white;
+}
+#treci{
+  background-color: #FFB6C1;
+}
